@@ -63,6 +63,18 @@ def audit(target,jar=None,strict=False):
             clazz="fr/rtv20/farmersdelightlocalization/FarmersDelightLocalization.class"
             for key in (path,"pack.mcmeta",clazz,"LICENSE"):
                 if key not in members:errors.append(f"{mc}: missing {key}")
+            if path in members:
+                metadata=archive.read(path).decode("utf-8")
+                if f'loaderVersion="{target["loader_range"]}"' not in metadata:
+                    errors.append(f"{mc}: incorrect FML loader range")
+                dep_pattern=(r'\[\[dependencies\.[^\]]+\]\][\s\S]*?modId\s*=\s*"'
+                             +re.escape(target["loader"])+r'"[\s\S]*?versionRange\s*=\s*"([^"]+)"')
+                dep=re.search(dep_pattern,metadata)
+                if not dep or dep.group(1)!=target["platform_range"]:
+                    errors.append(f"{mc}: incorrect {target['loader']} dependency range")
+                mcdep=re.search(r'\[\[dependencies\.[^\]]+\]\][\s\S]*?modId\s*=\s*"minecraft"[\s\S]*?versionRange\s*=\s*"([^"]+)"',metadata)
+                if not mcdep or mcdep.group(1)!=f"[{mc}]":
+                    errors.append(f"{mc}: incorrect Minecraft dependency range")
             if clazz in members:
                 content=archive.read(clazz)
                 major=int.from_bytes(content[6:8],"big")

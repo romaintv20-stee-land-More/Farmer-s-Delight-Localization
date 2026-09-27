@@ -1,0 +1,98 @@
+[
+  {
+    "branch": "1.15.2",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[31,)",
+    "minecraftRange": "[1.15.2]",
+    "neoRange": null,
+    "forgeRange": "[31.2.12,)"
+  },
+  {
+    "branch": "1.16.1",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[32,)",
+    "minecraftRange": "[1.16.1]",
+    "neoRange": null,
+    "forgeRange": "[32,)"
+  },
+  {
+    "branch": "1.16.3",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[34,)",
+    "minecraftRange": "[1.16.3]",
+    "neoRange": null,
+    "forgeRange": "[34,)"
+  },
+  {
+    "branch": "1.16.5",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[36,)",
+    "minecraftRange": "[1.16.5]",
+    "neoRange": null,
+    "forgeRange": "[36,)"
+  },
+  {
+    "branch": "1.17.1",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[37,)",
+    "minecraftRange": "[1.17.1]",
+    "neoRange": null,
+    "forgeRange": "[37,)"
+  },
+  {
+    "branch": "1.18.1",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[37,)",
+    "minecraftRange": "[1.18.1]",
+    "neoRange": null,
+    "forgeRange": "[39.0.45,)"
+  },
+  {
+    "branch": "1.18.2",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[40,)",
+    "minecraftRange": "[1.18.2]",
+    "neoRange": null,
+    "forgeRange": "[40.1.46,)"
+  },
+  {
+    "branch": "1.19",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[41,)",
+    "minecraftRange": "[1.19,1.20)",
+    "neoRange": null,
+    "forgeRange": "[41.1.0,)"
+  },
+  {
+    "branch": "1.20",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[46,)",
+    "minecraftRange": "[1.20,1.20.1]",
+    "neoRange": null,
+    "forgeRange": "[47.1.0,)"
+  },
+  {
+    "branch": "1.20.4",
+    "metadata": "src/main/resources/META-INF/mods.toml",
+    "loaderVersion": "[1,)",
+    "minecraftRange": "[1.20.4]",
+    "neoRange": "[1,)",
+    "forgeRange": null
+  },
+  {
+    "branch": "1.21",
+    "metadata": "src/main/resources/META-INF/neoforge.mods.toml",
+    "loaderVersion": "${loader_version_range}",
+    "minecraftRange": "${minecraft_version_range}",
+    "neoRange": "${neo_version_range}",
+    "forgeRange": null
+  },
+  {
+    "branch": "26.1",
+    "metadata": "src/main/resources/META-INF/neoforge.mods.toml",
+    "loaderVersion": "${loader_version_range}",
+    "minecraftRange": "${minecraft_version_range}",
+    "neoRange": "${neo_version_range}",
+    "forgeRange": null
+  }
+]

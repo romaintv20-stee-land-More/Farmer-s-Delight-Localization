@@ -27,14 +27,14 @@ def metadata(target):
     minecraft=target["mc"]
     loader=target["loader"]
     old=loader=="forge"
-    header='modLoader="javafml"\nloaderVersion="['+target["loader_min"]+',)"\nlicense="MIT"\n\n'
+    header='modLoader="javafml"\nloaderVersion="'+target["loader_range"]+'"\nlicense="MIT"\n\n'
     body='[[mods]]\nmodId="'+MOD+'"\nversion="0.1.0"\ndisplayName="Farmer\'s Delight Localization"\n'
     body+='authors="Romain and contributors"\n'
     body+='description="Client-side missing-key translations for Farmer\'s Delight."\n'
     if old:
         body+='displayTest="IGNORE_ALL_VERSION"\n'
     deps=[]
-    for name,range_value in ((loader,"["+target["loader_min"]+",)"),
+    for name,range_value in ((loader,target["platform_range"]),
                              ("minecraft","["+minecraft+"]"),
                              ("farmersdelight","[0,)")):
         if old:
