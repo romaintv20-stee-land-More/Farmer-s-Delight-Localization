@@ -22,11 +22,17 @@ A warning for the absent JEI development class `mezz.jei.library.load.PluginCall
 
 This smoke test validates mod discovery and resource loading. It does not replace visual review of every translated string.
 
+## Minecraft 1.20.4 / NeoForge 20.4.189 — PASS (2026-09-27)
+
+The official Farmer's Delight 1.20.4 development branch was started with Java 17, NeoForge 20.4.189 and our 1.20.4 localization JAR. Its pinned CraftTweaker runtime dependency currently references an unavailable REI artifact, so CraftTweaker runtime loading was disabled only in the disposable upstream test clone; our addon repository and JAR were not modified.
+
+The live client log confirms the localization JAR was discovered from the mods directory, NeoForge injected its event subscribers, and ResourceManager reloaded both `mod:farmersdelight` and `mod:farmersdelight_localization`. The client reached normal font, sound and texture loading without a fatal error from the localization addon.
+
+The structural audit separately verifies that the malformed original `zh_tw.json` translations are recovered in our valid 1.20.4 fallback.
+
 ## Pending
 
 The remaining Minecraft targets are still awaiting equivalent in-game smoke tests:
 
 - Forge: 1.15.2, 1.16.1, 1.16.3, 1.16.5, 1.17.1, 1.18.1, 1.18.2, 1.19.2, 1.20.1
-- NeoForge: 1.20.4, 26.1.2
-
-Minecraft 1.20.4 must additionally verify the recovered Traditional Chinese fallback because the upstream `zh_tw.json` is malformed.
+- NeoForge: 26.1.2

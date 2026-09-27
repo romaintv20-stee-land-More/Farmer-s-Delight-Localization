@@ -21,6 +21,6 @@ Source-key and packaging audits are structural only. They do not certify natural
 
 - Native review for all generated and dialect-proxy translations, including Pirate Speak, LOLCAT, RTL locales and regional dialects.
 - Authentic versions of specialist-language strings rather than unrelated language substitutes.
-- Start and test the exact original Farmer's Delight dependency on every matching Forge/NeoForge client. Minecraft 1.21.1 / NeoForge 21.1.219 has passed a first smoke test; see `SMOKE_TESTS.md`.
+- Start and test the exact original Farmer's Delight dependency on every matching Forge/NeoForge client. Minecraft 1.20.4 / NeoForge 20.4.189 and Minecraft 1.21.1 / NeoForge 21.1.219 have passed first smoke tests; see `SMOKE_TESTS.md`.
 - Confirm the original mod's translations retain priority, every format variable displays, and Chinese 1.20.4 recovery works.
 - Check GitHub Actions outputs and mod-loader metadata for every version before stable release.
