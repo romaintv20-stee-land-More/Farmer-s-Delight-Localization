@@ -1,0 +1,10 @@
+{
+  "branch": "1.15.2",
+  "commit": "4e67d3281a3ccb19594773ba6a186b6c66440eef",
+  "english_keys": 144,
+  "official_minecraft_languages": 122,
+  "source": "vectorwing/FarmersDelight",
+  "target": "1.15.2",
+  "upstream_license": "MIT",
+  "upstream_locale_files": 8
+}

@@ -1,0 +1,32 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+license="MIT"
+
+[[mods]]
+modId="farmersdelight_localization"
+version="0.1.0"
+displayName="Farmer's Delight Localization"
+authors="Romain and contributors"
+description='''Client-side missing-key translations for Farmer's Delight.
+Existing Farmer's Delight translations remain untouched.'''
+
+[[dependencies.farmersdelight_localization]]
+modId="forge"
+mandatory=true
+versionRange="[31.2.12,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.farmersdelight_localization]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.15.2]"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.farmersdelight_localization]]
+modId="farmersdelight"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="CLIENT"

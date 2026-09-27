@@ -1,0 +1,29 @@
+name: Validate localization and build the oldest target
+on:
+  push:
+    branches: [main, "work/**"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build-1_15_2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - name: Verify official Minecraft locales and missing-only translation keys
+        run: python scripts/audit.py
+      - name: Build Forge 1.15.2 development JAR
+        run: python scripts/build_jar.py
+      - name: Audit packaged Minecraft resources and mod metadata
+        run: python scripts/audit.py --jar dist/farmersdelight-localization-0.1.0+1.15.2.jar
+      - uses: actions/upload-artifact@v4
+        with:
+          name: farmersdelight-localization-forge-1.15.2-development
+          path: dist/farmersdelight-localization-0.1.0+1.15.2.jar
