@@ -1,8 +1,8 @@
 __pycache__/
 *.pyc
-work/
-dist/
-upstream/
+/work/
+/dist/
+/upstream/
 .gradle/
 build/
 .idea/
