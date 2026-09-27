@@ -1,0 +1,13 @@
+{
+  "death.attack.farmersdelight.stove": "%1$s ble grillet til perfeksjon",
+  "death.attack.farmersdelight.stove.player": "%1$s ble kastet på grillen av kokken %2$s",
+  "farmersdelight.advancement.get_fd_seed": "Avlinger av naturen",
+  "farmersdelight.advancement.get_fd_seed.desc": "Fire nye avlinger kan bli funnet i naturen, i mange klimaer ... eller kanskje i en kiste et sted.",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato": "Boo! Hyss!",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato.desc": "Kast en råtten tomat på en av disse irriterende raiderne!",
+  "farmersdelight.advancement.place_organic_compost": "Avansert kompostering",
+  "farmersdelight.advancement.place_organic_compost.desc": "Legg ned litt organisk kompost. Den komposterer bedre med sol, vann og sopp!",
+  "farmersdelight.subtitles.rotten_tomato.hit": "Råtne tomater spruter",
+  "farmersdelight.subtitles.rotten_tomato.throw": "Råtne tomatfluer",
+  "item.farmersdelight.rotten_tomato": "Råtten tomat"
+}

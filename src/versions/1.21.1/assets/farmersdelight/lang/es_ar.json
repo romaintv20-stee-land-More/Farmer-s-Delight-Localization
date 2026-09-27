@@ -1,0 +1,11 @@
+{
+  "farmersdelight.configuration.defaultTomatoVineRope": "Cuerda de vid de tomate predeterminada",
+  "farmersdelight.configuration.defaultTomatoVineRope.tooltip": "¿Qué cuerda debería dejar Tomato Vines cuando se rompa?",
+  "farmersdelight.configuration.enablePumpkinPieSneakToPlace": "Colar para colocar el pastel de calabaza",
+  "farmersdelight.configuration.enablePumpkinPieSneakToPlace.tooltip": "Si está habilitado, Pumpkin Pie requerirá que el usuario se escabulle para colocarlo como un bloque.",
+  "farmersdelight.configuration.enableTomatoRopePermanence": "Permanencia de la cuerda del tomate",
+  "farmersdelight.configuration.enableTomatoRopePermanence.tooltip": "Los cultivos de tomate que cuelgan de una cuerda forzarán la colocación de un bloque de cuerda cuando se rompan.Debido a limitaciones técnicas, esto afecta cosas como los comandos, lo que hace que no puedan \"establecer bloqueo\" este bloque en el primer intento.\n\nDesactívelo si este bloque le impide editar una región en creatividad o con comandos.Para un juego normal, recomiendo dejar esto habilitado.",
+  "farmersdelight.configuration.enableTomatoVineClimbingTaggedRopes": "Tomate Vine Trepa Cuerdas Etiquetadas",
+  "farmersdelight.configuration.enableTomatoVineClimbingTaggedRopes.tooltip": "Si está habilitado, los cultivos de tomate podrán trepar por cualquier cuerda etiquetada como deleite de los agricultores: cuerdas.Si está desactivado, esto quedará restringido únicamente a la cuerda de este mod.\n\n§lCuidado: esto convertirá estos bloques en el bloque especificado en defaultTomatoVineRope.§r",
+  "farmersdelight.configuration.enableVanillaCropCrates.tooltip": "Si está habilitado, las cajas de almacenamiento (3x3) para cultivos de vainilla (similares a Quark y Cultivo térmico) se podrán fabricar."
+}

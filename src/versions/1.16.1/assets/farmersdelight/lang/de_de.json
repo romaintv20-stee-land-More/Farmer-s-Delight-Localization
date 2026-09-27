@@ -1,0 +1,11 @@
+{
+  "block.farmersdelight.crimson_pantry": "Karmesinholzküchenschrank",
+  "block.farmersdelight.warped_pantry": "Wirrholzküchenschrank",
+  "block.farmersdelight.wild_rice": "Wildreis",
+  "farmersdelight.advancement.obtain_netherite_knife": "Brennend Heiß",
+  "farmersdelight.advancement.obtain_netherite_knife.desc": "Wider besseres Wissen geben Sie einen ganzen Netheritbarren aus, um Ihr Messer zu verbessern",
+  "farmersdelight.tooltip.dog_food.when_feeding": "Bei Fütterung an einen Wolf:",
+  "farmersdelight.tooltip.horse_feed.when_feeding": "Bei Fütterung an ein Pferd:",
+  "item.farmersdelight.nether_salad": "Nether Salat",
+  "item.farmersdelight.netherite_knife": "Netheritküchenmesser"
+}

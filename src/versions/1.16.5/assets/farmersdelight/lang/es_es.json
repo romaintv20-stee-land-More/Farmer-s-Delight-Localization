@@ -1,0 +1,13 @@
+{
+  "death.attack.farmersdelight.stove": "%1$s fue asado a la perfección",
+  "death.attack.farmersdelight.stove.player": "%1$s fue arrojado a la parrilla por el Chef %2$s",
+  "farmersdelight.advancement.get_fd_seed": "Cultivos silvestres",
+  "farmersdelight.advancement.get_fd_seed.desc": "Cuatro nuevos cultivos se pueden encontrar en la naturaleza, atraves de varios climas... o en algun cofre en algun lado.",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato": "¡Buu! ¡Siseo!",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato.desc": "¡Lanza un tomate podrido a uno de estos molestos saqueadores!",
+  "farmersdelight.advancement.place_organic_compost": "Compostaje avanzado",
+  "farmersdelight.advancement.place_organic_compost.desc": "Coloca un poco de compost orgánico. ¡Se composta mejor con sol, agua y hongos!",
+  "farmersdelight.subtitles.rotten_tomato.hit": "Salpicaduras de tomate podrido",
+  "farmersdelight.subtitles.rotten_tomato.throw": "Moscas del tomate podrido",
+  "item.farmersdelight.rotten_tomato": "Tomate podrido"
+}

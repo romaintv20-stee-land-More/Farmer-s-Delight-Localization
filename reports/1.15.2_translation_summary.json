@@ -1,0 +1,17 @@
+{
+  "automated_job": [],
+  "complete_locale_count": 118,
+  "english_keys": 144,
+  "fallback_keys": 14995,
+  "incomplete_locales": {
+    "jbo_en": 144,
+    "qya_aa": 144,
+    "tlh_aa": 144
+  },
+  "minecraft_native_languages": 122,
+  "minecraft_version": "1.15.2",
+  "native_review": "not completed",
+  "pending": 432,
+  "upstream_keys": 1134,
+  "upstream_locale_files": 8
+}

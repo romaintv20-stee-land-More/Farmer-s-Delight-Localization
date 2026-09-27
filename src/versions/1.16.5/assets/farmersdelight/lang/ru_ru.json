@@ -1,0 +1,13 @@
+{
+  "death.attack.farmersdelight.stove": "%1$s был зажарен на гриле",
+  "death.attack.farmersdelight.stove.player": "%1$s был брошен на гриль шефом %2$s",
+  "farmersdelight.advancement.get_fd_seed": "Дикие ростки",
+  "farmersdelight.advancement.get_fd_seed.desc": "Четыре новых культуры можно найти в природе, в разных климатах... или где-нибудь в сундуках.",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato": "Фуу! Позор!",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato.desc": "Киньте Гнилым томатом в надоедливого разбойника!",
+  "farmersdelight.advancement.place_organic_compost": "Продвинутое компостирование",
+  "farmersdelight.advancement.place_organic_compost.desc": "Поставьте Органический компост. Он разлагается лучше с солнцем, водой и грибами!",
+  "farmersdelight.subtitles.rotten_tomato.hit": "Гнилой томат лопается",
+  "farmersdelight.subtitles.rotten_tomato.throw": "Гнилой томат летит",
+  "item.farmersdelight.rotten_tomato": "Гнилой томат"
+}

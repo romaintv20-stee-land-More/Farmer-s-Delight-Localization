@@ -1,41 +1,59 @@
 # Farmer's Delight Localization
 
-An independent client-side translation add-on for [Farmer's Delight](https://github.com/vectorwing/FarmersDelight). The add-on provides only strings **missing from the original mod**. Farmer's Delight's official translations remain untouched and take precedence.
+Independent client-side localization companion for Farmer's Delight by vectorwing.
+Adds **only missing translation keys**; the original mod's complete or partial official translations remain unchanged.
 
-## Oldest version first
+## Supported versions
 
-The first target is **Minecraft 1.15.2 with Forge**. Its pinned Farmer's Delight branch contains **144 English translation keys** and eight translated locale files. Mojang's official Minecraft 1.15.2 asset index lists **122 selectable languages**; our project includes no languages outside that index.
+Version-first development is implemented for **12 Minecraft targets** from 1.15.2 Forge to 26.1.2 NeoForge.
+Only the official Minecraft languages for each version are supported; custom extra languages are not added.
+Each build is one JAR containing its version-specific fallback translations.
 
-Following releases will be developed chronologically across the official 1.16.1, 1.16.3, 1.16.5, 1.17.1, 1.18.1, 1.18.2, 1.19, 1.20, 1.20.4, 1.21 and 26.1 branches. Each version will use its own source baseline and its own official Minecraft language inventory. Forge is necessary for older versions; NeoForge support will follow the upstream mod's available loaders.
+| Minecraft | Loader | Java |
+|---|---|---:|
+| 1.15.2 | forge | 8 |
+| 1.16.1 | forge | 8 |
+| 1.16.3 | forge | 8 |
+| 1.16.5 | forge | 8 |
+| 1.17.1 | forge | 16 |
+| 1.18.1 | forge | 17 |
+| 1.18.2 | forge | 17 |
+| 1.19.2 | forge | 17 |
+| 1.20.1 | forge | 17 |
+| 1.20.4 | neoforge | 17 |
+| 1.21.1 | neoforge | 21 |
+| 26.1.2 | neoforge | 25 |
 
-## Translation policy
+Full verified counts and unfinished specialist languages: [Version and coverage matrix](docs/VERSION_MATRIX.md).
 
-- Retain all official Farmer's Delight translations; add only missing keys.
-- When a source string is unchanged, reuse official translations from newer Farmer's Delight branches or translations from Beyond & More.
-- Translate the remaining strings for official Minecraft locales and validate key coverage, text formatting and packaged resources.
-- Mark automatically generated translations as requiring native-speaker review.
-- Special official novelty languages (Pirate Speak, upside-down English, Quenya, etc.) need bespoke translation rather than misleading ordinary machine translation.
+## Dependency
 
-## Status
+Install the matching original Farmer's Delight build for the selected Minecraft version. This mod does not contain the original mod's gameplay.
 
-**Development build / work in progress:** Minecraft 1.15.2. Current measured coverage: 118/121 non-English locales complete (including English-inheriting variants), 14,995 new fallback entries, and 432 strings still awaiting genuine translations in three specialized novelty languages. Details: reports/1.15.2_coverage.json and docs/QA_PENDING.md. A passing build does not mean that all translations have been native-reviewed or tested in Minecraft. Do not label the add-on a stable release until those checks are complete.
+## Rules
+
+- Use each upstream release's exact English key inventory; keep its own existing locale files authoritative.
+- Reuse newer official translations or Beyond & More only when the original English meaning and formatting match.
+- Add fallback strings for missing keys of Minecraft-native languages only.
+- Validate JSON, formatting variables, version-specific resources and the mod JAR for each target.
+- Do not distribute fabricated translations for specialist or novelty languages that require human expertise.
+
+## Development preview
+
+All 12 version inventories are prepared and automatically audited. The 11 earlier targets build locally with JDK 21; Java 25 for Minecraft 26.1.2 is built on GitHub Actions.
+Full native-speaker review and in-game testing are **not yet complete**. Automated builds are not a claim of stable release readiness.
 
 ## Build
 
-Requires Python 3.11+ and JDK 21 for the build process. The compiled class files target **Java 8**, as required by Minecraft 1.15.2.
+Use Python 3.12+ and JDK 21 (JDK 25 to compile the latest target):
 
-1. Run python scripts/audit.py to verify the translation keys and available official locales.
-2. Run python scripts/build_jar.py to create the Minecraft 1.15.2 Forge mod JAR.
-3. Run python scripts/audit.py --jar dist/farmersdelight-localization-0.1.0+1.15.2.jar to validate the archive.
+    python scripts/audit_targets.py --all --strict-available-locales
+    python scripts/build_all.py --all
+    python scripts/audit_targets.py --target 1.21.1 --jar dist/farmersdelight-localization-0.1.0+1.21.1-neoforge.jar
 
-The build compiles a minimal Forge annotation class against a temporary compile-only declaration; that declaration is not bundled into the finished JAR. Runtime compatibility and appearance in game still require testing on the real Forge client.
+GitHub Actions runs a separate job per target and uploads a version-specific JAR.
 
-## Translation generation
+## Source and attribution
 
-Run python scripts/generate_fallbacks.py --seed --generate to reuse existing translations and identify missing keys. Use the --translate option only where automatic translation is appropriate. The translator stores its checkpoint in the ignored work directory and can resume interrupted batches.
-
-All files under sources/farmersdelight/1.15.2 are pinned to the upstream 1.15.2 branch; the official Minecraft language lists under sources/minecraft are pinned to Mojang's asset-index SHA-1.
-
-## Dependencies and attribution
-
-Install Farmer's Delight separately. This add-on provides translations, not Farmer's Delight gameplay content. See docs/ATTRIBUTIONS.md and licenses/FarmersDelight-LICENSE.txt. This project is unofficial and not affiliated with the original mod authors.
+Original mod: https://github.com/vectorwing/FarmersDelight ; MIT license.
+See docs/ATTRIBUTIONS.md and licenses/FarmersDelight-LICENSE.txt. This is an unofficial project.

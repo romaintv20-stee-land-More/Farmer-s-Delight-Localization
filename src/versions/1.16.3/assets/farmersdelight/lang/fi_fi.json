@@ -1,0 +1,16 @@
+{
+  "block.farmersdelight.shepherds_pie_block": "Lammaspaimenen piiras",
+  "effect.farmersdelight.comfort.0.desc": "Estää nälän, hitauden ja heikkouden saamisen.",
+  "effect.farmersdelight.nourished.0.desc": "Estää nälkiintymisen silloin kun kylläisyyttä ei käytetä elinvoiman palauttamiseen.",
+  "farmersdelight.block.cutting_board.invalid_item": "Tätä ei voi leikata...",
+  "farmersdelight.block.cutting_board.invalid_tool": "Ehkä toisella työkalulla...",
+  "farmersdelight.block.rice.invalid_placement": "Tämä kasvi selviää parhaiten matalassa vedessä.",
+  "farmersdelight.jei.info.straw": "Kuiva korsi, jota käytetään muiden esineiden valmistamiseen. Niitä saa leikkaamalla ruohomaisia kasveja veitsellä.",
+  "farmersdelight.subtitles.tomato.pick": "Tomaatit popsahtavat",
+  "item.farmersdelight.cabbage_rolls": "Kaalikääryleet",
+  "item.farmersdelight.cooked_mutton_chops": "Paistettu lampaankyljys",
+  "item.farmersdelight.mutton_chops": "Raaka lampaankyljys",
+  "item.farmersdelight.mutton_wrap": "Lammasrulla",
+  "item.farmersdelight.noodle_soup": "Nuudelikeitto",
+  "item.farmersdelight.roasted_mutton_chops": "Paahdettu lampaankyljys"
+}

@@ -1,0 +1,6 @@
+{
+  "farmersdelight.block.cutting_board.invalid_item": "このアイテムは切れません",
+  "farmersdelight.block.cutting_board.invalid_tool": "対応する道具以外では切れません",
+  "farmersdelight.block.rice.invalid_placement": "この作物は浅い水中でしか育ちません",
+  "farmersdelight.subtitles.tomato.pick": "トマトを収穫する"
+}

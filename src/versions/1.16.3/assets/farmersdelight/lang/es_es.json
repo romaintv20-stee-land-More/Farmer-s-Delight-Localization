@@ -1,0 +1,21 @@
+{
+  "block.farmersdelight.cabbages": "Coles",
+  "block.farmersdelight.onions": "Cebollas",
+  "block.farmersdelight.rice_crop": "Cultivos de arroz",
+  "block.farmersdelight.rice_upper_crop": "Cultivos de arroz",
+  "block.farmersdelight.shepherds_pie_block": "Pastel de pastor",
+  "block.farmersdelight.tomatoes": "Tomates",
+  "effect.farmersdelight.comfort.0.desc": "Te hace inmune al Hambre, la Lentitud y la Debilidad.",
+  "effect.farmersdelight.nourished.0.desc": "Evita la pérdida de hambre, excepto cuando se utiliza la saturación para curar el daño.",
+  "farmersdelight.block.cutting_board.invalid_item": "Esto no parece que se pueda cortar...",
+  "farmersdelight.block.cutting_board.invalid_tool": "Tal vez con una herramienta diferente...",
+  "farmersdelight.block.rice.invalid_placement": "Este cultivo no sobrevivirá bien fuera de aguas poco profundas.",
+  "farmersdelight.jei.info.straw": "Una fibra vegetal seca utilizada en la artesanía. Se obtiene cortando cultivos y plantas herbáceas con un Cuchillo.",
+  "farmersdelight.subtitles.tomato.pick": "Tomate estallando",
+  "item.farmersdelight.cabbage_rolls": "Rollos de col",
+  "item.farmersdelight.cooked_mutton_chops": "Chuletas de cordero cocidas",
+  "item.farmersdelight.mutton_chops": "Chuletas de cordero crudas",
+  "item.farmersdelight.mutton_wrap": "Wrap de cordero",
+  "item.farmersdelight.noodle_soup": "Sopa de fideos",
+  "item.farmersdelight.roasted_mutton_chops": "Chuletas de cordero asadas"
+}

@@ -1,0 +1,7 @@
+{
+  "farmersdelight.block.cutting_board.invalid_item": "이건 자르지 못할 것 같습니다...",
+  "farmersdelight.block.cutting_board.invalid_tool": "아마도 다른 도구가 필요할 것 같습니다...",
+  "farmersdelight.block.rice.invalid_placement": "이 식물은 물 밖에선 살 수 없습니다.",
+  "farmersdelight.subtitles.tomato.pick": "토마토가 수확됨",
+  "item.farmersdelight.mutton_wrap": "케밥"
+}

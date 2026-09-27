@@ -1,0 +1,101 @@
+[
+  {
+    "branch": "1.16.1",
+    "commit": "7178ec3a8df0d9119f80dbf39098dfe0746c68f7",
+    "english_keys": 150,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.16.1",
+    "minecraft_languages": 125,
+    "official_translations": 8
+  },
+  {
+    "branch": "1.16.3",
+    "commit": "50aaff02fc7c98acbe1fb0438dcacef0f79f5781",
+    "english_keys": 198,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.16.3",
+    "minecraft_languages": 125,
+    "official_translations": 12
+  },
+  {
+    "branch": "1.16.5",
+    "commit": "2dde64b5516d9506e013abba77c640b91e3353ed",
+    "english_keys": 243,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.16.5",
+    "minecraft_languages": 125,
+    "official_translations": 24
+  },
+  {
+    "branch": "1.17.1",
+    "commit": "b832fed226dee00a4f7d497fcb0d473846ca3082",
+    "english_keys": 236,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.17.1",
+    "minecraft_languages": 123,
+    "official_translations": 23
+  },
+  {
+    "branch": "1.18.1",
+    "commit": "318a5f91726ffdd4598c8994935eeb42cc6f15f8",
+    "english_keys": 236,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.18.1",
+    "minecraft_languages": 124,
+    "official_translations": 24
+  },
+  {
+    "branch": "1.18.2",
+    "commit": "fbb803a02c82363dc6106ac36aef045a0998ac71",
+    "english_keys": 258,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.18.2",
+    "minecraft_languages": 124,
+    "official_translations": 30
+  },
+  {
+    "branch": "1.19",
+    "commit": "bfd4819ca9f9bc1d579d2963cfe941517de1a220",
+    "english_keys": 267,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.19.2",
+    "minecraft_languages": 124,
+    "official_translations": 31
+  },
+  {
+    "branch": "1.20",
+    "commit": "e854d56d4eea8dc120650d43da0d1472711797ad",
+    "english_keys": 429,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.20.1",
+    "minecraft_languages": 143,
+    "official_translations": 44
+  },
+  {
+    "branch": "1.20.4",
+    "commit": "0848f7d3150456dba69a8d6f70606a085b7ad33e",
+    "english_keys": 286,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.20.4",
+    "minecraft_languages": 143,
+    "official_translations": 32
+  },
+  {
+    "branch": "1.21",
+    "commit": "dd8b9b0bfec916a2da88a6d64e3a37f4a02c3259",
+    "english_keys": 479,
+    "excluded_non_minecraft": [],
+    "minecraft": "1.21.1",
+    "minecraft_languages": 143,
+    "official_translations": 44
+  },
+  {
+    "branch": "26.1",
+    "commit": "22fe987639a9813f5b5474579518571ce91ed5d5",
+    "english_keys": 479,
+    "excluded_non_minecraft": [],
+    "minecraft": "26.1.2",
+    "minecraft_languages": 143,
+    "official_translations": 43
+  }
+]

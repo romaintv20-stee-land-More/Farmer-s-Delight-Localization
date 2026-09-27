@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"sources/minecraft"
 OUT.mkdir(parents=True,exist_ok=True)
 VERSIONS=("1.15.2","1.16.1","1.16.3","1.16.5","1.17.1","1.18.1",
-          "1.18.2","1.19","1.20","1.20.4","1.21.1","26.1.2")
+          "1.18.2","1.19","1.19.2","1.20","1.20.1","1.20.4","1.21.1","26.1.2")
 def fetch(url):
     req=urllib.request.Request(url,headers={"User-Agent":"FarmersDelightLocalization/0.1"})
     with urllib.request.urlopen(req,timeout=45) as response:return response.read()

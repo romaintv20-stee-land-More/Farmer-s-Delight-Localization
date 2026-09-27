@@ -1,0 +1,15 @@
+{
+  "death.attack.farmersdelight.stove": "%1$sは絶妙な焼き加減で焼かれた",
+  "death.attack.farmersdelight.stove.player": "%1$sは%2$sシェフにグリルに投げ込まれた ",
+  "farmersdelight.advancement.get_fd_seed": "クロップ オブ ザ ワイルド",
+  "farmersdelight.advancement.get_fd_seed.desc": "4つの新たな作物が見つかるのは色々な気候の自然の中かもしれないし、どこかの宝箱の中かもしれない。",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato": "帰りやがれ！",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato.desc": "厄介な襲撃者のうちの一人に腐ったトマトを投げつける！",
+  "farmersdelight.advancement.place_organic_compost": "高度な堆肥化",
+  "farmersdelight.advancement.place_organic_compost.desc": "有機コンポストを設置する。太陽、水、そしてムッシュルームでより早く堆肥化できる",
+  "farmersdelight.jei.info.ham": "豚またはホグリンの足から取れる骨付きの肉。剣より軽いものでないと切れない",
+  "farmersdelight.jei.info.knife": "軽めの近接武器。草から藁を手に入れたり、動物から特別なアイテムをとることができる",
+  "farmersdelight.subtitles.rotten_tomato.hit": "腐ったトマトが跳ね散る",
+  "farmersdelight.subtitles.rotten_tomato.throw": "腐ったトマトが飛ぶ",
+  "item.farmersdelight.rotten_tomato": "腐ったトマト"
+}

@@ -1,0 +1,854 @@
+{
+  "af_za": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ar_sa": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ast_es": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "az_az": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ba_ru": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "bar": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "be_by": {
+    "english_inherited": false,
+    "fallback": 145,
+    "pending": 0,
+    "upstream": 284
+  },
+  "be_latn": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "bg_bg": {
+    "english_inherited": false,
+    "fallback": 52,
+    "pending": 0,
+    "upstream": 377
+  },
+  "br_fr": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "brb": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "bs_ba": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ca_es": {
+    "english_inherited": false,
+    "fallback": 178,
+    "pending": 0,
+    "upstream": 251
+  },
+  "cs_cz": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "cv_cu": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "cy_gb": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "da_dk": {
+    "english_inherited": false,
+    "fallback": 145,
+    "pending": 0,
+    "upstream": 284
+  },
+  "de_at": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "de_ch": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "de_de": {
+    "english_inherited": false,
+    "fallback": 145,
+    "pending": 0,
+    "upstream": 284
+  },
+  "el_gr": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "en_au": {
+    "english_inherited": true,
+    "fallback": 0,
+    "pending": 0,
+    "upstream": 0
+  },
+  "en_ca": {
+    "english_inherited": true,
+    "fallback": 0,
+    "pending": 0,
+    "upstream": 0
+  },
+  "en_gb": {
+    "english_inherited": true,
+    "fallback": 0,
+    "pending": 0,
+    "upstream": 4
+  },
+  "en_nz": {
+    "english_inherited": true,
+    "fallback": 0,
+    "pending": 0,
+    "upstream": 7
+  },
+  "en_pt": {
+    "english_inherited": false,
+    "fallback": 85,
+    "pending": 0,
+    "upstream": 344
+  },
+  "en_ud": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "enp": {
+    "english_inherited": true,
+    "fallback": 0,
+    "pending": 0,
+    "upstream": 0
+  },
+  "enws": {
+    "english_inherited": true,
+    "fallback": 0,
+    "pending": 0,
+    "upstream": 0
+  },
+  "eo_uy": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "es_ar": {
+    "english_inherited": false,
+    "fallback": 52,
+    "pending": 0,
+    "upstream": 377
+  },
+  "es_cl": {
+    "english_inherited": false,
+    "fallback": 145,
+    "pending": 0,
+    "upstream": 284
+  },
+  "es_ec": {
+    "english_inherited": false,
+    "fallback": 237,
+    "pending": 0,
+    "upstream": 192
+  },
+  "es_es": {
+    "english_inherited": false,
+    "fallback": 143,
+    "pending": 0,
+    "upstream": 286
+  },
+  "es_mx": {
+    "english_inherited": false,
+    "fallback": 143,
+    "pending": 0,
+    "upstream": 286
+  },
+  "es_uy": {
+    "english_inherited": false,
+    "fallback": 237,
+    "pending": 0,
+    "upstream": 192
+  },
+  "es_ve": {
+    "english_inherited": false,
+    "fallback": 237,
+    "pending": 0,
+    "upstream": 192
+  },
+  "esan": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "et_ee": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "eu_es": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "fa_ir": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "fi_fi": {
+    "english_inherited": false,
+    "fallback": 199,
+    "pending": 0,
+    "upstream": 230
+  },
+  "fil_ph": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "fo_fo": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "fr_ca": {
+    "english_inherited": false,
+    "fallback": 152,
+    "pending": 0,
+    "upstream": 277
+  },
+  "fr_ch": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "fr_fr": {
+    "english_inherited": false,
+    "fallback": 152,
+    "pending": 0,
+    "upstream": 277
+  },
+  "fra_de": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "fur_it": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "fy_nl": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ga_ie": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "gd_gb": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "gl_es": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "go_fr": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "got_de": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "hal_ua": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "haw_us": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "he_il": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "hi_in": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "hn_no": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "hr_hr": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "hu_hu": {
+    "english_inherited": false,
+    "fallback": 108,
+    "pending": 0,
+    "upstream": 321
+  },
+  "hy_am": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "id_id": {
+    "english_inherited": false,
+    "fallback": 125,
+    "pending": 0,
+    "upstream": 304
+  },
+  "ig_ng": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "io_en": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "is_is": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "isv": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "it_it": {
+    "english_inherited": false,
+    "fallback": 142,
+    "pending": 0,
+    "upstream": 287
+  },
+  "ja_jp": {
+    "english_inherited": false,
+    "fallback": 52,
+    "pending": 0,
+    "upstream": 377
+  },
+  "jbo_en": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "ka_ge": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "kk_kz": {
+    "english_inherited": false,
+    "fallback": 108,
+    "pending": 0,
+    "upstream": 321
+  },
+  "kn_in": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ko_kr": {
+    "english_inherited": false,
+    "fallback": 52,
+    "pending": 0,
+    "upstream": 377
+  },
+  "ksh": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "kw_gb": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ky_kg": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "la_la": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "lb_lu": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "li_li": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "lmo": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "lo_la": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "lol_us": {
+    "english_inherited": false,
+    "fallback": 303,
+    "pending": 0,
+    "upstream": 126
+  },
+  "lt_lt": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "lv_lv": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "lzh": {
+    "english_inherited": false,
+    "fallback": 68,
+    "pending": 0,
+    "upstream": 361
+  },
+  "mk_mk": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "mn_mn": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ms_my": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "mt_mt": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "nah": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "nds_de": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "nl_be": {
+    "english_inherited": false,
+    "fallback": 187,
+    "pending": 0,
+    "upstream": 242
+  },
+  "nl_nl": {
+    "english_inherited": false,
+    "fallback": 188,
+    "pending": 0,
+    "upstream": 241
+  },
+  "nn_no": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "no_no": {
+    "english_inherited": false,
+    "fallback": 199,
+    "pending": 0,
+    "upstream": 230
+  },
+  "oc_fr": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ovd": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "pl_pl": {
+    "english_inherited": false,
+    "fallback": 152,
+    "pending": 0,
+    "upstream": 277
+  },
+  "pls": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "pt_br": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 0,
+    "upstream": 429
+  },
+  "pt_pt": {
+    "english_inherited": false,
+    "fallback": 233,
+    "pending": 0,
+    "upstream": 196
+  },
+  "qcb_es": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "qid": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "qya_aa": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "ro_ro": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "rpr": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ru_ru": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 0,
+    "upstream": 429
+  },
+  "ry_ua": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "sah_sah": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "se_no": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "sk_sk": {
+    "english_inherited": false,
+    "fallback": 172,
+    "pending": 0,
+    "upstream": 257
+  },
+  "sl_si": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "so_so": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "sq_al": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "sr_cs": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "sr_sp": {
+    "english_inherited": false,
+    "fallback": 187,
+    "pending": 0,
+    "upstream": 242
+  },
+  "sv_se": {
+    "english_inherited": false,
+    "fallback": 171,
+    "pending": 0,
+    "upstream": 258
+  },
+  "sxu": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "szl": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "ta_in": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "th_th": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "tl_ph": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "tlh_aa": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "tok": {
+    "english_inherited": false,
+    "fallback": 11,
+    "pending": 134,
+    "upstream": 284
+  },
+  "tr_tr": {
+    "english_inherited": false,
+    "fallback": 172,
+    "pending": 0,
+    "upstream": 257
+  },
+  "tt_ru": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "tzo_mx": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "uk_ua": {
+    "english_inherited": false,
+    "fallback": 145,
+    "pending": 0,
+    "upstream": 284
+  },
+  "uz_uz": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "val_es": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "vec_it": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "vi_vn": {
+    "english_inherited": false,
+    "fallback": 145,
+    "pending": 0,
+    "upstream": 284
+  },
+  "vp_vl": {
+    "english_inherited": false,
+    "fallback": 143,
+    "pending": 0,
+    "upstream": 286
+  },
+  "vro": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  },
+  "yi_de": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "yo_ng": {
+    "english_inherited": false,
+    "fallback": 429,
+    "pending": 0,
+    "upstream": 0
+  },
+  "zh_cn": {
+    "english_inherited": false,
+    "fallback": 50,
+    "pending": 0,
+    "upstream": 379
+  },
+  "zh_hk": {
+    "english_inherited": false,
+    "fallback": 50,
+    "pending": 0,
+    "upstream": 379
+  },
+  "zh_tw": {
+    "english_inherited": false,
+    "fallback": 52,
+    "pending": 0,
+    "upstream": 377
+  },
+  "zlm_arab": {
+    "english_inherited": false,
+    "fallback": 0,
+    "pending": 429,
+    "upstream": 0
+  }
+}

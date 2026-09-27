@@ -1,29 +1,49 @@
-name: Validate localization and build the oldest target
+name: Audit and build every supported Farmer's Delight version
 on:
   push:
-    branches: [main, "work/**"]
+    branches: [main, 'work/**']
   pull_request:
   workflow_dispatch:
 
 jobs:
-  build-1_15_2:
+  build:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { mc: '1.15.2', loader: forge, java: '21' }
+          - { mc: '1.16.1', loader: forge, java: '21' }
+          - { mc: '1.16.3', loader: forge, java: '21' }
+          - { mc: '1.16.5', loader: forge, java: '21' }
+          - { mc: '1.17.1', loader: forge, java: '21' }
+          - { mc: '1.18.1', loader: forge, java: '21' }
+          - { mc: '1.18.2', loader: forge, java: '21' }
+          - { mc: '1.19.2', loader: forge, java: '21' }
+          - { mc: '1.20.1', loader: forge, java: '21' }
+          - { mc: '1.20.4', loader: neoforge, java: '21' }
+          - { mc: '1.21.1', loader: neoforge, java: '21' }
+          - { mc: '26.1.2', loader: neoforge, java: '25' }
+
+    name: Build MC ${{ matrix.mc }} / ${{ matrix.loader }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
+          python-version: '3.12'
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
-          java-version: "21"
-      - name: Verify official Minecraft locales and missing-only translation keys
-        run: python scripts/audit.py
-      - name: Build Forge 1.15.2 development JAR
-        run: python scripts/build_jar.py
-      - name: Audit packaged Minecraft resources and mod metadata
-        run: python scripts/audit.py --jar dist/farmersdelight-localization-0.1.0+1.15.2.jar
-      - uses: actions/upload-artifact@v4
+          java-version: ${{ matrix.java }}
+      - name: Validate missing-only translation files and Minecraft locale inventory
+        run: python scripts/audit_targets.py --target '${{ matrix.mc }}' --strict-available-locales
+      - name: Build a single JAR containing all existing fallback languages
+        run: python scripts/build_all.py --target '${{ matrix.mc }}'
+      - name: Validate packaged JAR, Java bytecode and loader metadata
+        run: |
+          python scripts/audit_targets.py --target '${{ matrix.mc }}' --jar 'dist/farmersdelight-localization-0.1.0+${{ matrix.mc }}-${{ matrix.loader }}.jar'
+      - name: Upload version-specific JAR
+        uses: actions/upload-artifact@v4
         with:
-          name: farmersdelight-localization-forge-1.15.2-development
-          path: dist/farmersdelight-localization-0.1.0+1.15.2.jar
+          name: farmersdelight-localization-${{ matrix.mc }}-${{ matrix.loader }}-development
+          path: dist/farmersdelight-localization-0.1.0+${{ matrix.mc }}-${{ matrix.loader }}.jar

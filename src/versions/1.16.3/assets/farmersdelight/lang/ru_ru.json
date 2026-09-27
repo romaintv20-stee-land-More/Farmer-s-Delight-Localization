@@ -1,0 +1,16 @@
+{
+  "block.farmersdelight.shepherds_pie_block": "Пастуший пирог",
+  "effect.farmersdelight.comfort.0.desc": "Делает вас невосприимчивым к Голоду, Медлительности и Слабости.",
+  "effect.farmersdelight.nourished.0.desc": "Предотвращает потерю голода, за исключением случаев использования насыщения для лечения.",
+  "farmersdelight.block.cutting_board.invalid_item": "Кажется это нельзя разрезать...",
+  "farmersdelight.block.cutting_board.invalid_tool": "Возможно другим инструментом...",
+  "farmersdelight.block.rice.invalid_placement": "Этот посев не выживет за пределами мелководья.",
+  "farmersdelight.jei.info.straw": "Сухое растительное волокно, используемое для создания предметов. Получают путем срезания ножом травянистых культур и растений.",
+  "farmersdelight.subtitles.tomato.pick": "Томат сорван",
+  "item.farmersdelight.cabbage_rolls": "Голубцы",
+  "item.farmersdelight.cooked_mutton_chops": "Жареные бараньи отбивные",
+  "item.farmersdelight.mutton_chops": "Сырые бараньи отбивные",
+  "item.farmersdelight.mutton_wrap": "Рулет с бараниной",
+  "item.farmersdelight.noodle_soup": "Лапшичный суп",
+  "item.farmersdelight.roasted_mutton_chops": "Жареные бараньи отбивные"
+}

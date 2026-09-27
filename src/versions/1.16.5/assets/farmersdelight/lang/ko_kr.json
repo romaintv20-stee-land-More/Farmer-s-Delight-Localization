@@ -1,0 +1,13 @@
+{
+  "death.attack.farmersdelight.stove": "%1$s이(가) 완벽하게 구워졌습니다",
+  "death.attack.farmersdelight.stove.player": "%1$s이(가) 요리사 %2$s에게 조리되었습니다",
+  "farmersdelight.advancement.get_fd_seed": "야생의 작물들",
+  "farmersdelight.advancement.get_fd_seed.desc": "다양한 생물군계에서 4가지의 새로운 작물을 찾아보세요... 아니면 상자 속에서요.",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato": "워! 놀랬지!",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato.desc": "성가신 습격자들에게 썩은 토마토를 던져버리세요!",
+  "farmersdelight.advancement.place_organic_compost": "고급 퇴비",
+  "farmersdelight.advancement.place_organic_compost.desc": "유기농 퇴비를 설치하세요. 햇빛, 물, 버섯이 분해를 돕습니다!",
+  "farmersdelight.subtitles.rotten_tomato.hit": "썩은 토마토가 부딫힘",
+  "farmersdelight.subtitles.rotten_tomato.throw": "썩은 토마토가 날아감",
+  "item.farmersdelight.rotten_tomato": "썩은 토마토"
+}

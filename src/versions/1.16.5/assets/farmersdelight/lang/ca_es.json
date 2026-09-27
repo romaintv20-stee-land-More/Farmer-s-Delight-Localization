@@ -1,0 +1,13 @@
+{
+  "death.attack.farmersdelight.stove": "%1$s s'ha rostit a la perfecció",
+  "death.attack.farmersdelight.stove.player": "%1$s ha estat llençat a la paella per el chef %2$s",
+  "farmersdelight.advancement.get_fd_seed": "Cultiu silvestre",
+  "farmersdelight.advancement.get_fd_seed.desc": "Es poden trobar quatre cultius nous a la naturalesa, entre els diferents climes... o potser en algun cofre amagat.",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato": "Boo! Foraaaa!",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato.desc": "Llança un tomàquet podrit a un d'aquets apestosos assaltants!",
+  "farmersdelight.advancement.place_organic_compost": "Compostatge avançat",
+  "farmersdelight.advancement.place_organic_compost.desc": "Col·loca compost orgànic. Es composta millor amb sol, aigua i bolets!",
+  "farmersdelight.subtitles.rotten_tomato.hit": "Tomàquet podrit esclatant",
+  "farmersdelight.subtitles.rotten_tomato.throw": "Tomàquet podrit llançat",
+  "item.farmersdelight.rotten_tomato": "Tomàquet podrit"
+}

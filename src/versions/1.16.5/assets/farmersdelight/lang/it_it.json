@@ -1,0 +1,13 @@
+{
+  "death.attack.farmersdelight.stove": "%1$s è stato grigliato alla perfezione",
+  "death.attack.farmersdelight.stove.player": "%1$s è stato messo sulla grigia dallo Chef %2$s",
+  "farmersdelight.advancement.get_fd_seed": "Semi selvaggi",
+  "farmersdelight.advancement.get_fd_seed.desc": "Quattro nuovi semi possono essere trovati selvatici, fra diversi climi... o in qualche baule da qualche parte.",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato": "Buuuuuuu! Vai a casa!",
+  "farmersdelight.advancement.hit_raider_with_rotten_tomato.desc": "Lancia un pomodoro marcio su uno di questi fastidiosi predoni!",
+  "farmersdelight.advancement.place_organic_compost": "Compostaggio avanzato",
+  "farmersdelight.advancement.place_organic_compost.desc": "Piazza qualche composto organico. Si composta meglio sotto il sole, in acqua e con i funghi!",
+  "farmersdelight.subtitles.rotten_tomato.hit": "Pomodoro marcio si spiaccica",
+  "farmersdelight.subtitles.rotten_tomato.throw": "Pomodoro marcio vola",
+  "item.farmersdelight.rotten_tomato": "Pomodoro marcio"
+}

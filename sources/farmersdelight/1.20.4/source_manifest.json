@@ -1,0 +1,17 @@
+{
+  "branch": "1.20.4",
+  "commit": "0848f7d3150456dba69a8d6f70606a085b7ad33e",
+  "english_keys": 286,
+  "excluded_non_minecraft": [],
+  "malformed_upstream_locale": {
+    "zh_tw": {
+      "error": "missing comma after line 312",
+      "reason": "upstream JSON cannot load; mirror recovered originals in fallback",
+      "recovered_valid_keys": 286,
+      "upstream_url": "https://raw.githubusercontent.com/vectorwing/FarmersDelight/0848f7d3150456dba69a8d6f70606a085b7ad33e/src/main/resources/assets/farmersdelight/lang/zh_tw.json"
+    }
+  },
+  "minecraft": "1.20.4",
+  "minecraft_languages": 143,
+  "official_translations": 31
+}

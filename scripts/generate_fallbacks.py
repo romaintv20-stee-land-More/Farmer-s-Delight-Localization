@@ -3,7 +3,7 @@
 from __future__ import annotations
 from pathlib import Path
 from collections import Counter,defaultdict
-import argparse,concurrent.futures,json,re,threading,time,urllib.parse,urllib.request,urllib.error
+import argparse,concurrent.futures,json,os,re,threading,time,urllib.parse,urllib.request,urllib.error
 ROOT=Path(__file__).resolve().parents[1]
 BASE=ROOT/"sources/farmersdelight/1.15.2"
 ASSETS=ROOT/"src/forge_1152/resources/assets/farmersdelight/lang"
@@ -28,7 +28,7 @@ def read(p):
     return json.loads(Path(p).read_text(encoding="utf-8")) if Path(p).is_file() else {}
 def save(p,data):
     p=Path(p);p.parent.mkdir(parents=True,exist_ok=True)
-    tmp=p.with_name(p.name+".tmp")
+    tmp=p.with_name(p.name+f".tmp.{os.getpid()}.{threading.get_ident()}")
     tmp.write_text(json.dumps(data,ensure_ascii=False,sort_keys=True,indent=2)+"\n",encoding="utf-8")
     tmp.replace(p)
 def sig(s):return sorted(PH.findall(s))
@@ -168,7 +168,7 @@ def generate(english,locales):
         stats[locale]={"upstream":len(set(english)&set(official)),
             "fallback":len(data),"pending":pending,
             "special":locale in UNSUPPORTED,"english_inherited":locale in ENGLISH}
-    save(ROOT/"reports/1.15.2_coverage.json",stats)
+    save(ROOT/"reports"/f"{BASE.name}_coverage.json",stats)
     print("COVERAGE",{k:sum(v[k] for v in stats.values())
         for k in ("upstream","fallback","pending")},
         "COMPLETE_LOCALES",sum(v["pending"]==0 for v in stats.values()),"/",len(stats),flush=True)

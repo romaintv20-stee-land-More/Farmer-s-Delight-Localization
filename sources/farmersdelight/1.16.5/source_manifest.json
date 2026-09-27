@@ -1,0 +1,9 @@
+{
+  "branch": "1.16.5",
+  "commit": "2dde64b5516d9506e013abba77c640b91e3353ed",
+  "english_keys": 243,
+  "excluded_non_minecraft": [],
+  "minecraft": "1.16.5",
+  "minecraft_languages": 125,
+  "official_translations": 24
+}
